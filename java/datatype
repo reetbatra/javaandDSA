@@ -1,0 +1,32 @@
+package lecture1;
+
+public class datatype {
+
+	public static void main(String[] args) {
+		char c = 'c';
+		//System.out.println('c' + 3);
+		int i = c + 10;
+		//System.out.println(i);
+        //char abc = i; error
+        //4 bytes cannot be copied into 2 bytes
+        i=c; //wont give error
+        System.out.println(i);
+        char abc = (char)i;
+         long l = i; //correct
+        //  i= l; error
+         System.out.println(l);
+         System.out.println(i);
+         l = 123456789098754333L;
+         i = (int)l;
+         System.out.println(l);
+         System.out.println(i);
+         double d = i;
+         // i =d; error
+         float f = 1.23f;
+        //f = d; error
+         d = f;
+         
+        
+	}
+
+}
