@@ -1,0 +1,16 @@
+package lecture1;
+import java.util.Scanner;
+
+public class stringasinput {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		//String str = s.nextline();
+		String str = s.next();
+		System.out.println(str);
+		
+		char c = str.charAt(0);
+		 
+	}
+
+}
