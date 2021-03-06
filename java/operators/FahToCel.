@@ -15,7 +15,8 @@ public class FahToCel {
 		
 		
         System.out.print(9.0/5);
-        
+        System.out.println('A' + 1); //66
+        System.out.println('A' + 'B'); //195
 	}
 
 }
