@@ -10,7 +10,7 @@ public class Solution {
         int m1 = S.nextInt();
         int m2 = S.nextInt();
         int m3 = S.nextInt();
-        
+        //
         System.out.println(c);
         int avg = (m1 + m2 + m3)/3;
         System.out.println(avg);
