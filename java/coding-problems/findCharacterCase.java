@@ -1,5 +1,6 @@
 package codingques;
 import java.util.Scanner;
+
 public class findCharacterCase {
 
 	public static void main(String[] args) {
