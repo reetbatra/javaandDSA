@@ -1,3 +1,7 @@
+//1
+//12
+//123
+//1234
 import java.util.Scanner;
 public class patternE {
 
