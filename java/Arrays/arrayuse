@@ -1,0 +1,15 @@
+
+public class arrayuse {
+
+	public static void main(String[] args) {
+		
+		int arr [] = new int [10];
+		arr[3]=15;
+		System.out.print(arr[3]);
+        char charArr [] = new char[11];
+    	System.out.print(charArr[1]);
+    	double dArr []= new double[10];
+    	System.out.print(dArr[3]);
+	}
+
+}
