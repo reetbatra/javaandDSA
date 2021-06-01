@@ -1,0 +1,13 @@
+package classesAndObjects;
+
+public class studentclass {
+        public String name;
+         private int rollnumber;
+         public void setrollNumber (int rn) {
+        	 rollnumber= rn;
+         }
+         public int getrollNumber(){
+        	 return rollnumber;
+         }
+
+} 
